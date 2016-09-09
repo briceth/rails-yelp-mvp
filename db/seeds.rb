@@ -17,6 +17,18 @@ restaurants_attributes = [
     address:      "route de Suresnes 75016 Paris",
     phone_number:        "0874868208",
     category: "vietnamese"
+  },
+  {
+    name:         "le wagon",
+    address:      "11 villa gaudelet 75011 Paris",
+    phone_number:        "0626965653",
+    category: "chinese"
+  },
+  {
+    name:         "The Upcase",
+    address:      "12 rue du blaireau  75018 Paris",
+    phone_number:        "0908965676",
+    category: "french"
   }
 ]
 restaurants_attributes.each { |params| Restaurant.create!(params) }
